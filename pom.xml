@@ -583,6 +583,12 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+            <id>apple-silicon</id>
+            <properties>
+                <os.detected.classifier>osx-x86_64</os.detected.classifier>
+            </properties>
+        </profile>
     </profiles>
     <reporting>
         <plugins>
